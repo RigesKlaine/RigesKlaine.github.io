@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+	<title>Portal a los mundos de Aar&oacute;n</title>
+	<META NAME="AUTHOR" CONTENT="Sergi Escartí">
+	<META HTTP-EQUIV="Content-language" CONTENT="es">
+	<META NAME="DESCRIPTION" CONTENT="Portal de internet de entrada a los mundos de Aarón">
+	<META NAME="KEYWORDS" CONTENT="Aarón, mundos de Aarón, transmedia">
+	<link rel="stylesheet" type="text/css" href="css01.css">
+	
+</head>
+
+<body id="fondo">
+	<img src="fondo_fade.png" id="fondo_fade">
+	<div id="fondo_nubes">
+	</div>
+	<img src="logo.png" id="logo">
+	<img src="about_marco.png" id="about_marco">
+	<img src="base01.png" id="base" onclick="changePage()" onmouseover="iluminati()" onmouseout="noiluminati()">
+	<div id="sayote">
+	</div>
+	<div id="puerta01">
+	</div>
+	<div id="sayote02">
+	</div>
+		<div id="contenedor">
+		<div id="izq">
+			<img src="boton10.png" id="CFizq">
+			<img src="boton04.png" id="Cizq" onclick="rightClick()" onmouseover="hopLeft()" onmouseout="dehopLeft()">
+		</div>
+		<div id="der"> 
+			<img src="boton20.png" id="CFder">
+			<img src="boton02.png" id="Cder" onclick="leftClick()" onmouseover="hopRight()" onmouseout="dehopRight()">
+		</div>
+	</div>
+	<a href="about/about.html" id="gif">
+		<img src="aboutgif.jpg" id="gifpic" onmouseover="this.src='aboutgif01.gif'" onmouseout="this.src='aboutgif02.gif'">
+	</a>
+	<script type="text/javascript" src="script01.js"></script>
+</body>
+</html>

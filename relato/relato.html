@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+	<title>Portal a los mundos de Aar&oacute;n</title>
+	<META NAME="AUTHOR" CONTENT="Sergi Escartí">
+	<META HTTP-EQUIV="Content-language" CONTENT="es">
+	<META NAME="DESCRIPTION" CONTENT="Portal de internet de entrada a los mundos de Aarón">
+	<META NAME="KEYWORDS" CONTENT="Aarón, mundos de Aarón, transmedia">
+	<script src="../jquery-1.11.3.min.js"></script>
+	<script>
+        $(document).ready(function () {
+            $("input").click(function () {
+				var currentId = $(this).attr('id');
+                $("#texto").load("content"+currentId+".txt");
+            });
+        }); 
+	</script>
+	<style type="text/css" title="estilo para título">
+		h2{font-size:48px;font-family:Trebuchet MS;color:yellow;}
+		#facebook
+		{
+		  -webkit-animation: myfirst 1s linear 0s infinite alternate;
+		  position:absolute;
+		  top:87px;
+		  left:105px;
+		  }
+		 @-webkit-keyframes myfirst {
+			0%   {top:85px;}
+			100% {top:90px;}
+		}
+		#twitter
+		{
+		  -webkit-animation: mysecond 1s linear 0s infinite alternate;
+		  position:absolute;
+		  top:80px;
+		  left:150px;
+		  }
+		 @-webkit-keyframes mysecond {
+			0%   {top:80px;}
+			100% {top:85px;}
+		}
+		#fondo
+		 {
+		 background: url(../stardust.png);/* no-repeat center center fixed; */
+		 /*-webkit-background-size: cover;
+		 -moz-background-size: cover;
+		 -o-background-size: cover;
+		 background-size: cover;*/
+		 }
+		#contenedor
+		{
+		 height: 500px;
+		 width: 800px;
+		 margin-left:-400px;
+		 position: absolute;
+		 top: 30%;
+		 left: 50%;
+		}
+		#capa1
+         {
+		 background-image: url('Etiqueta01.png');
+		 background-color: green;
+		 position:absolute;
+		 top: 0%;
+		 left:0%;
+         width: 200px;
+         height: 500px;
+         }
+		 #capa2
+         {
+		 background-image: url('Etiqueta02.png');
+		 position: absolute;
+		 top: 0%;
+		 left: 35%;
+         width: 200px;
+         height: 500px;
+         background-color: blue;
+         }
+		 #capa3
+         {
+		 background-image: url('Etiqueta03.png');
+		 position: absolute;
+		 top: 0%;
+		 left: 70%;
+         width: 200px;
+         height: 500px;
+         background-color: red;
+         }
+		 #about
+         {
+		 position:absolute;
+		 top:95%;
+		 left:80%;
+		 font-size:32px;
+		 link:#005500;
+		 vlink:#0000cc;
+		 alink:#005500;
+         }
+	</style>
+</head>
+
+<body id="fondo">
+	<div style="position:absolute;height:100px;width:500px">
+		<h2 align="left">Los mundos de Aar&oacute;n</h2>
+	</div>
+	<div style="position:absolute;height:100px;width:250px;left:500px">
+		<table style="position:absolute;top:67px;color:white"> 
+			<tr> 
+			   <td style="width:60px"><a href="../Entrada.html">Principal</a></td> 
+			   <td style="width:60px"><a href="relato.html">Relato</a></td> 
+			   <td style="width:60px"><a href="../music/music.html">Música</a></td> 
+			   <td style="width:60px"><a href="../webcomic/webcomic.html">Webcómic</a></td> 
+			</tr> 
+		</table>
+	</div>
+	<div style="top:120px;width:800px;position:absolute;height:800px">
+		<div id="texto" style="background-color:red;position:absolute;width:550px;height:100%">
+			<ul style="color:green;position:absolute;top:65px;">
+				<li> Lee las aventuras de Aar&oacute;n y sus allegados desde su llegada al hospital.
+				<li> Comprende el origen de todo.
+				<li> Los relatos se publican peri&oacute;dicamente.
+				<li> Pr&oacute;xima publicaci&oacute;n: Cap&iacute;tulo 1, xx/yy/2015 
+			</ul>
+		</div>
+		<div style="position:absolute;width:225px;left:600px;height:100%">
+			<div style="position:absolute;width:225;height:190px;top:136px;overflow:auto">
+				<input id="01" type="image" src="libro01.png" style="position:absolute;left:0px">
+				<input id="02" type="image"  src="libro02.png" style="position:absolute;left:45px">
+				<input type="image"  src="libro01.png" style="position:absolute;left:90px">
+				<input type="image"  src="libro02.png" style="position:absolute;left:135px">
+				<input type="image"  src="libro01.png" style="position:absolute;left:180px">
+				<input type="image"  src="libro02.png" style="position:absolute;left:225px">
+			</div>
+		    <img src="estante_up.png" style="position:absolute;top:107px">
+			<img src="estante_down.png" style="position:absolute;top:301px">
+			<div style="position:absolute;width:225;height:500px;top:400px;background-color:green">
+				<img src="animacion.gif" style="position:absolute;left:0px">
+				<a href="https://www.facebook.com/losmundosdeAaron?ref=bookmarks" id="facebook">
+					<img src="icon_fb.jpg" style="height:20px;width:20px">
+				</a>
+				<a href="https://twitter.com/MundosdeAaron" id="twitter">
+					<img src="icon_twitter.png" style="height:20px;width:20px">
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+<style type="text/css" title="estilo para título">
+		h2{font-size:48px;font-family:Trebuchet MS;color:yellow;}
+	#fondo
+	 {
+	 background-image: url('fondo_base.png');/* no-repeat center center fixed; */
+	 background-repeat: repeat;
+	 background-attachment: fixed;
+	 /*-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;*/
+	 }
+	 #fondo_fade
+	{
+	 background-color: none;
+	 background-repeat: repeat;
+	 position: absolute;
+	 top: 0%;
+	 left: 0%;
+	 width: 100%;
+	 height: 100%;
+	} 
+	 #fondo_nubes
+	{
+	 background-image: url('fondo_nubes.png');
+	 background-repeat: repeat;
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 top: 0%;
+	 left: 0%;
+	} 
+	 #logo
+	{
+	 background-color: none;
+	 margin-left: -150px;
+	 position: absolute;
+	 top: 10px;
+	 left: 50%;
+	} 
+/*	 #marco
+	{ 	<img src="marco.png" id="marco">
+	 background-color: none;
+	 margin-left: -310px;
+	 margin-top: -247px;
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	} */
+	 #sayote
+	{
+	 background-image: url('pasillo01.png');
+	 background-repeat: repeat-x;
+	 margin-top: -256px;
+	 position: absolute;
+	 width: 100%;
+	 height: 420px;
+	 top: 65%;
+	 left: 0%;
+	} 
+	 #sayote02
+	{
+	 background-image: url('pasillo02.png');
+	 background-repeat: repeat-x;
+	 margin-top: -256px;
+	 position: absolute;
+	 width: 100%;
+	 height: 420px;
+	 top: 65%;
+	 left: 0%;
+	}
+	 #about_marco
+	{
+	 background-color: none;
+	 top: 65%;
+	 left: 50%;
+	 margin-left: -280px;
+	 margin-top: 164px;
+	 position: absolute;
+	} 
+	 #gif
+	{
+	 top: 500%; 
+	 left: 10%;
+	}
+	 #gifpic
+	{
+	 background-color: none;
+	 position:absolute;
+	 top: 65%;
+	 left: 50%;
+	 margin-left: -253px;
+	 margin-top:164px;
+	 width: 100px;
+	 height: 100px; 
+	}
+	 #base
+	{
+	 background-color: none;
+	 top: 65%;
+	 left: 50%;
+	 margin-left: -79px;
+	 margin-top: 175px;
+	 position: absolute;
+	} 
+	/* #base
+	{
+	 height: 100px;
+	 width: 100%;
+	 background-image: url('cenefa.png');
+	 background-repeat: repeat-x;
+	 margin-left: 0%;
+	 box-shadow: 10px 10px 5px #888888;
+	 position: absolute;
+	 top: 500px;
+	 left: 0%;
+	}*/
+	
+	#contenedor
+	{
+	 background-color: none;
+	 position:absolute;
+	 top: 40%;
+	 left:50%;
+	 margin-left: -250px; 
+	 width: 500px;
+	 height: 400px;
+	}
+
+	@keyframes slideleft{
+		0%{
+			
+			//transform: translateX(0px);
+			opacity: 1;
+		}
+		100%{
+			left: 0%;
+			margin-left: -150px;
+			/*transform: translateX(-500px);*/
+			opacity: 0;
+		}
+	}
+	
+	#puerta01
+	{
+	 background-color: none;
+	 background-image: url('puerta01.png');
+	 position:absolute;
+	 margin-left: -75px; 
+	 top: 65%;
+	 margin-top:-150px;
+	 left:50%;
+	 width: 150px;
+	 height: 300px;
+	}
+	
+	#izq
+	{
+	 background-color: none;
+	 position:absolute;
+	 top: 20px;
+	 left: 0%;
+	}
+	#der
+	{
+	 background-color: none;
+	 position:absolute;
+	 margin-left: -100px;
+	 top: 20px;
+	 left: 100%;
+	}	
+	 #Cizq
+	{
+	 background-color: none;
+	 position:absolute;
+	 top: 0%;
+	 left: 0%;
+	}
+	#Cder
+	{
+	 background-color: none;
+	 position:absolute;
+	 margin-left: -75px;
+	 top: 0%;
+	 left: 0%;
+	}
+	 #CFder
+	{
+	 margin-left: -60px;
+	}
+</style>
