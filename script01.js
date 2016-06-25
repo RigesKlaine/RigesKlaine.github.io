@@ -32,7 +32,7 @@ function leftClick(){
 		door.style.transition = "left 1.0s linear 0s";
 		door.style.left = '50%';
 		base.style.transition = "top 1.0s linear 0s";
-		base.style.top = '50%';
+		base.style.top = '65%';
 	}
 	else{
 		if(puerta==1){
@@ -80,7 +80,7 @@ function rightClick(){
 		door.style.transition = "left 2.0s linear 0s";
 		door.style.left = '50%';
 		base.style.transition = "top 1.0s linear 0s";
-		base.style.top = '50%';
+		base.style.top = '65%';
 	}
 	else{
 		if(puerta==1){
